@@ -4,12 +4,14 @@ SimpleCov.start do
   add_filter '/vendor/'
 end
 
-# Code Climate test coverage.
-begin
-  require 'codeclimate-test-reporter'
-  CodeClimate::TestReporter.start
-rescue
-  # Continue without Code Climate test coverage.
+if RUBY_PLATFORM != 'java'
+  # Code Climate test coverage.
+  begin
+    require 'codeclimate-test-reporter'
+    CodeClimate::TestReporter.start
+  rescue
+    # Continue without Code Climate test coverage.
+  end
 end
 
 require 'rspec'
