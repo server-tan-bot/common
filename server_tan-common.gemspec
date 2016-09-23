@@ -27,6 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 0.38.0'
   spec.add_development_dependency 'rubocop-checkstyle_formatter'
   spec.add_development_dependency 'simplecov'
-  spec.add_development_dependency 'codeclimate-test-reporter'
+  spec.add_development_dependency 'codeclimate-test-reporter' unless RUBY_PLATFORM == 'java'
   spec.add_development_dependency 'yard'
 end
