@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'server_tan/common/version'
+require 'server_tan/core/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'server_tan-core'
