@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'server_tan/common/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'server_tan-common'
-  spec.version       = ServerTan::Common::VERSION
+  spec.name          = 'server_tan-core'
+  spec.version       = ServerTan::Core::VERSION
   spec.authors       = ['dotMaiku']
   spec.email         = ['dotMaiku@gmail.com']
-  spec.summary       = %q{Common structures and libraries for Server-tan.}
-  spec.description   = %q{Structures and utilities used by Server-tan.}
+  spec.summary       = %q{Core classes and libraries for Server-tan.}
+  spec.description   = %q{Classes, libraries, and common logic used by Server-tan.}
   spec.homepage      = ''
   spec.license       = 'MIT'
 

@@ -2,4 +2,4 @@
 module ServerTan
 end
 
-require_relative 'server_tan/common/version'
+require_relative 'server_tan/core/version'
