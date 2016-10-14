@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'pry'
+require 'server_tan'
+
+Pry.start
+
